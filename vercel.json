@@ -1,6 +1,9 @@
 {
   "functions": {
-    "crm/*.php": {
+    "crm/admin/*.php": {
+      "runtime": "vercel-php@0.7.3"
+    },
+    "crm/manager/*.php": {
       "runtime": "vercel-php@0.7.3"
     },
     "tourist/*.php": {
